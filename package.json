@@ -1,0 +1,30 @@
+{
+  "name": "gym-manager-cli",
+  "version": "1.2.0",
+  "description": "Sistema CLI completo para la gestión de un gimnasio con Node.js y MySQL",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "check": "node --check src/app.js && find src -name '*.js' -print0 | xargs -0 -n1 node --check",
+    "test": "node --test"
+  },
+  "keywords": [
+    "gym",
+    "manager",
+    "cli",
+    "nodejs",
+    "mysql"
+  ],
+  "author": "Pablo López",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "dotenv": "^18.0.4",
+    "inquirer": "^8.2.6",
+    "mysql2": "^3.24.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
