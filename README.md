@@ -6,7 +6,7 @@ El proyecto permite administrar clientes, planes de entrenamiento, contratos, pr
 
 ---
 
-## 📋 Descripción del proyecto
+##  Descripción del proyecto
 
 **GYM MANAGER** es un sistema diseñado para facilitar la administración de un gimnasio mediante una aplicación de consola.
 
